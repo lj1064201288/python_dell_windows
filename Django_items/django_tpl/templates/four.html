@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if标签</title>
+</head>
+<body>
+{% if name == '刘琼英'%}
+<h3 style="color: blue">{{name}},我的母亲</h3>
+{% elif name == '阳志波' %}
+<h3 style="color: blueviolet">{{name}}, 我的堂哥</h3>
+{% else %}
+<h3 style="color: chartreuse">{{name}}, 我的朋友</h3>
+
+{% endif %}
+
+</body>
+</html>
